@@ -1,0 +1,26 @@
+/*
+ * Copyright (c) arifunctg@gmail.com
+ */
+.a {
+    border: none;
+    outline: none;
+    max-width: 700px;
+    min-height: 100px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 0px 20px 20px 20px;
+    padding: 5px 5px 5px 5px;
+    transition: border 0.1s
+}
+
+.a:focus {
+    border: 1px solid #1E88E5;
+    box-shadow: 0 0 5px #1E88E5;
+}
+.show_more_btn{
+    color: #13a2ff;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
